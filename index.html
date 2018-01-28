@@ -1,108 +1,151 @@
 <!DOCTYPE html>
-<html>
+<html lang='en'>
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- Custom CSS -->
     <link rel="stylesheet" href="css/styles.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <title>My Portfolio</title>
-    <link rel="stylesheet" href="css/styles.css">
   </head>
   <body>
-    <!-- navigation -->
-    <nav class="navbar navbar-inverse">
-      <div class="container-fluid">
-        <div class="navbar-header">
-          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#mainNavBar">
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-          <a class="navbar-brand" href="#">
-            <img class="logo" src="images/logo.png" alt="logo for my Portfolio">
-          </a>
-        </div>
-        <div class="collapse navbar-collapse" id="mainNavBar">
-          <ul class="nav navbar-nav">
-            <li class="active"><a href="#">Home</a></li>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Gallery</a></li>
-            <li><a href="#">Contact</a></li>
-          </ul>
-          <ul class="nav navbar-nav navbar-right">
-            <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
-          </ul>
-       </div>
-      </div>
-  </nav><!-- end of navigation -->
-    <!-- header section -->
-    <div class="container">
-      <header class="page-header">
-        <h1>
-          CHANDRA THARA CHANDRIKA
-        </h1>
-        <h3>
-          Front-End Ninja!
-        </h3>
-      </header><!-- end of header section -->
-    </div><!-- end of header container -->
-    <!-- flower area -->
-    <div class="container">
-      <div class="text-center">
-        <a href="#">
-          <img src="images/flower_nocolor.jpg" onmouseover="this.src='images/flower_color.jpg'" onmouseout="this.src='images/flower_nocolor.jpg'" class="img-responsive" alt="color changing flower">
-        </a>
-          <h2 class="text_imageCenter">I make awesome websites!</h2>
-      </div>
-    <!-- featured work area -->
-    <div class="container-fluid bg-3 text-center">
-      <br>
-        <h2 class="featured_text">Featured Work</h2>
-       <div class="row">
-        <div class="col-md-4 col-sm-6 col-xs-12">
-          <div class="card h-100">
-            <br>
-               <div class="card-body">
-                 <img class="thumbnail img-fluid resize" src="images/cat.jpeg" alt="pets">
-               </div>
-               <div class="card-footer">
-                <a href="https://github.com/ChandraThara/animal_trading_cards" class="btn btn-primary">Pets</a>
-              </div>
-          </div>
-         </div>
-         <div class="col-md-4 col-sm-6 col-xs-12">
-           <div class="card h-100 ">
-             <br>
-                <div class="card-body">
-                  <img class="thumbnail img-fluid resize"  src="images/umbrella_result.jpg" alt="umbrella">
+        <!-- Main Navigation -->
+        <nav class="navbar navbar-expand-lg navbar-dark">
+            <div class="container-fluid">
+              <!-- Collapse button -->
+              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                  aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+              </button>
+              <a class="navbar-brand" href="#">
+                <img class="logo" src="images/logo.png" alt="logo for my Portfolio">
+              </a>
+                <!-- Collapsible content -->
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                  <!-- Links -->
+                  <ul class="navbar-nav mr-auto">
+                      <li class="nav-item active nav_menu"><a class="nav-link" href="#">Home</span></a></li>
+                      <li class="nav-item nav_menu"><a class="nav-link" href="#">Gallery</a></li>
+                      <li class="nav-item nav_menu"><a class="nav-link" href="#">About</a></li>
+                  </ul>
+                  <!-- Login -->
+                  <ul class="nav navbar-nav navbar-right nav_menu">
+                    <li>
+                        <a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a>
+                    </li>
+                  </ul>
+                  <!-- Links -->
                 </div>
-                <div class="card-footer">
-                 <a href="#" class="btn btn-primary">Coming Soon</a>
-               </div>
-           </div>
-         </div><div class="col-md-4 col-sm-6 col-xs-12">
-            <div class="card h-100 ">
-              <br>
-                 <div class="card-body">
-                   <img class="thumbnail img-fluid resize"  src="images/puppy.jpg" alt="puppy">
-                 </div>
-                 <div class="card-footer">
-                  <a href="#" class="btn btn-primary">Coming Soon</a>
-                </div>
+              <!-- Collapsible content -->
             </div>
-           </div>
-      </div><!-- end of row -->
-  </div> <!--End of featured work container-->
-</div><!-- end of flower container -->
-<br>
-    <footer class="container-fluid text-center">
-      <ul>
-        <li><a href="#">Contact me</a></li>
-        <li><a href="#">Follow me on Twitter</a></li>
-        <li><a href="#">RSS</a></li>
-      </ul>
-    </footer>
+          </nav>
+          <!-- Main Navigation -->
+        <article>
+          <header>
+            <div class="container-fluid">
+              <div class="d-flex align-items-end flex-column">
+                <div class="p-2">
+                  <h2 class="h2_style">CHANDRA THARA CHANDRIKA</p>
+                </div>
+                <div class="p-2">
+                  <h3 class="h3_style">Front-end Ninja!</p>
+                </div>
+              </div>
+            </div><!-- end of header -->
+        </header>
+      </article>
+        <!-- Main Layout -->
+        <main role="main">
+          <!-- Flower section -->
+          <section>
+            <div class="container">
+              <div class="jumbotron changing_flower">
+                <h2 class="flower_text">I make awesome websites!</h2>
+              </div>
+            </div>
+          </section><!-- End of Flower section -->
+          <!-- Featured work section  -->
+          <section>
+            <header class="text-center">
+              <h2 class="featured_text">Featured Work</h2>
+            </header>
+            <hr>
+            <section class="featured_section">
+              <div class="container">
+                <div class="row">
+                  <div class="col-xs-12 col-sm-4 col-md-4">
+                    <a href="#">
+                      <img class="img-thumbnail img-fluid" src="images/dolphins.jpg" alt="dolphins">
+                    </a>
+                    <div class="featured_work_button"><a href="#" class="btn btn-secondary h3_style">Coming Soon</a></div>
+                  </div>
+                  <div class="col-xs-12 col-sm-4 col-md-4">
+                    <a href="#">
+                      <img class="img-thumbnail img-fluid" src="images/birds.JPG" alt="birds">
+                    </a>
+                    <div class="featured_work_button">
+                      <a href="#" class="btn btn-secondary h3_style">Coming Soon</a>
+                    </div>
+                  </div>
+                  <div class="col-xs-12 col-sm-4 col-md-4" >
+                    <a href="#">
+                      <img class="img-thumbnail img-fluid" src="images/kite.JPG" alt="kite flying">
+                    </a>
+                    <div class="featured_work_button"><a href="#" class="btn btn-secondary h3_style">Coming Soon</a></div>
+                  </div> <!-- End of featured work container -->
+               </div> <!-- End of featured work row -->
+               <br>
+               <div class="row">
+                 <div class="col-xs-12 col-sm-4 col-md-4">
+                   <a href="#">
+                     <img class="img-thumbnail img-fluid" src="images/rock.jpg" alt="rock">
+                   </a>
+                   <div class="featured_work_button">
+                     <a href="#" class="btn btn-secondary h3_style">Coming Soon</a>
+                   </div>
+                 </div>
+                 <div class="col-xs-12 col-sm-4 col-md-4">
+                   <a href="#">
+                     <img class="img-thumbnail img-fluid" src="images/coconut.JPG" alt="coconut trees">
+                   </a>
+                   <div class="featured_work_button">
+                     <a href="#" class="btn btn-secondary h3_style">Coming Soon</a>
+                   </div>
+                 </div>
+                 <div class="col-xs-12 col-sm-4 col-md-4" >
+                   <a href="#">
+                     <img class="img-thumbnail img-fluid" src="images/boat.JPG" alt="house boat">
+                   </a>
+                   <div class="featured_work_button">
+                     <a href="#" class="btn btn-secondary h3_style">Coming Soon</a>
+                   </div>
+                 </div> <!-- End of featutered work container -->
+              </div> <!-- End of featured work row -->
+              </div>
+            </section>
+          </section> <!-- End of Featured work  section -->
+        </main> <!-- End of Main Layout -->
+        <hr>
+      <article>
+    		<!-- Footer -->
+    		<footer class="footer container-fluid d-flex justify-content-center">
+          <!--Social buttons-->
+          <div class="p-2 footer_div">
+            <p><small>Copyright Chandra Thara Chandrika &copy; 2018. All rights reserved.</small></p>
+          </div>
+          <div class="p-2 footer_div">
+            <ul>
+              <a href="#"><i class="fa fa-facebook"></i></a>
+              <a href="#"><i class="fa fa-twitter"></i></a>
+              <a href="#"><i class="fa fa-linkedin"></i></a>
+              <a href="#"><i class="fa fa-google-plus"></i></a>
+            </ul>
+          </div>
+    		</footer><!-- End of footer -->
+  	</article>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
   </body>
 </html>
