@@ -29,6 +29,13 @@ article {
 	display: block;
 }
 
+ul {
+	list-style: none;
+}
+
+ul li {
+	display: inline;
+}
 /*
  *
  * Navigation
@@ -224,10 +231,6 @@ hr {
 		padding: 10px;
 		border-right: 1px solid #70726f;
 		transition: all 0.5s ease;
-	}
-
-	footer a:first-child {
-		border-left: 1px solid #70726f;
 	}
 
 	footer a:hover {
