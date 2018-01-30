@@ -26,7 +26,7 @@
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                   <!-- Links -->
                   <ul class="navbar-nav mr-auto">
-                      <li class="nav-item active nav_menu"><a class="nav-link" href="#">Home</span></a></li>
+                      <li class="nav-item active nav_menu"><a class="nav-link" href="#">Home</a></li>
                       <li class="nav-item nav_menu"><a class="nav-link" href="#">Gallery</a></li>
                       <li class="nav-item nav_menu"><a class="nav-link" href="#">About</a></li>
                   </ul>
@@ -41,35 +41,43 @@
               <!-- Collapsible content -->
             </div>
           </nav>
-          <!-- Main Navigation -->
+          <!-- End of Main Navigation -->
         <article>
           <header>
             <div class="container-fluid">
-              <div class="d-flex align-items-end flex-column">
-                <div class="p-2">
-                  <h2 class="h2_style">CHANDRA THARA CHANDRIKA</p>
-                </div>
-                <div class="p-2">
-                  <h3 class="h3_style">Front-end Ninja!</p>
-                </div>
-              </div>
-            </div><!-- end of header -->
-        </header>
+              <div class="row">
+                <div class="col d-flex align-items-end flex-column">
+                    <div class="p-2">
+                      <h2 class="h2_style">CHANDRA THARA CHANDRIKA</h2>
+                    </div>
+                    <div class="p-2">
+                      <h3 class="h3_style">Front-end Ninja!</h3>
+                    </div>
+                </div> <!-- End of col -->
+              </div> <!-- End of row -->
+            </div> <!-- End of container div -->
+        </header> <!-- End of header -->
       </article>
         <!-- Main Layout -->
         <main role="main">
           <!-- Flower section -->
-          <section>
-            <div class="container">
-              <div class="jumbotron changing_flower">
-                <h2 class="flower_text">I make awesome websites!</h2>
+          <section class="container">
+              <div class="row jumbotron changing_flower">
+                <div class="col">
+                  <p class="flower_text">I design and build awesome websites!</p>
+                </div>
               </div>
-            </div>
           </section><!-- End of Flower section -->
           <!-- Featured work section  -->
-          <section>
+          <section class="featured_section">
             <header class="text-center">
-              <h2 class="featured_text">Featured Work</h2>
+              <div class="container-fluid">
+                <div class="row">
+                  <div class="col">
+                    <h2 class="featured_text">Featured Work</h2>
+                  </div>
+                </div>
+              </div>
             </header>
             <hr>
             <section class="featured_section">
@@ -130,19 +138,31 @@
         <hr>
       <article>
     		<!-- Footer -->
-    		<footer class="footer container-fluid d-flex justify-content-center">
-          <!--Social buttons-->
-          <div class="p-2 footer_div">
-            <p><small>Copyright Chandra Thara Chandrika &copy; 2018. All rights reserved.</small></p>
-          </div>
-          <div class="p-2 footer_div">
-            <ul>
-              <a href="#"><i class="fa fa-facebook"></i></a>
-              <a href="#"><i class="fa fa-twitter"></i></a>
-              <a href="#"><i class="fa fa-linkedin"></i></a>
-              <a href="#"><i class="fa fa-google-plus"></i></a>
-            </ul>
-          </div>
+    		<footer class="footer container-fluid">
+          <div class="row">
+            <div class="col d-flex justify-content-center">
+              <!--Social buttons-->
+              <div class="p-2 footer_div">
+                <p><small>Copyright Chandra Thara Chandrika &copy; 2018. All rights reserved.</small></p>
+              </div>
+              <div class="p-2 footer_div">
+                <ul>
+                  <li>
+                    <a href="#"><i class="fa fa-facebook"></i></a>
+                  </li>
+                  <li>
+                    <a href="#"><i class="fa fa-twitter"></i></a>
+                  </li>
+                  <li>
+                    <a href="#"><i class="fa fa-linkedin"></i></a>
+                  </li>
+                  <li>
+                    <a href="#"><i class="fa fa-google-plus"></i></a>
+                  </li>
+                </ul>
+              </div>
+            </div> <!-- End of footer col -->
+          </div> <!-- End of footer row -->
     		</footer><!-- End of footer -->
   	</article>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
