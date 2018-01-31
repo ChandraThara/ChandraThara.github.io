@@ -64,68 +64,7 @@ hr {
 	color: white;
 }
 
-@media screen and (max-width: 400px) {
-	.h2_style {
-		font: 1em Georgia;
-	}
-
-	.h3_style {
-		font: 0.75em Georgia;
-	}
-
-	.nav_menu {
-		font-size: 0.5em;
-	}
-
-	.flower_text {
-		font: 1.0em "Comic Sans MS";
-	}
-
-	.featured_text {
-		font: 1.0em "Comic Sans MS";
-		color: #fff;
-	}
-
-	/*
-     *
-     * Footer
-     *
-     */
-
-	.footer_div {
-		height: 60px;
-	}
-
-	footer {
-		background-color: #555;
-		color: #fff;
-		text-align: center;
-	}
-
-	footer a {
-		color: #70726f;
-		font-size: 4px;
-		padding: 2px;
-		border-right: 1px solid #70726f;
-		transition: all 0.5s ease;
-	}
-
-	.fa {
-		padding: 4px;
-		font-size: 8px;
-		width: 20px;
-		text-align: center;
-		text-decoration: none;
-		margin: 2px 2px;
-		border-radius: 50%;
-	}
-
-	footer p {
-		font-size: 0.25em;
-	}
-
-}
-
+/* Mobile styles */
 @media screen and (max-width: 412px) {
 	.h2_style {
 		font: 1em Georgia;
@@ -136,7 +75,7 @@ hr {
 	}
 
 	.nav_menu {
-		font-size: 0.5em;
+		font-size: 0.75em;
 	}
 
 	.flower_text {
@@ -146,6 +85,7 @@ hr {
 	.featured_text {
 		font: 1.0em "Comic Sans MS";
 		color: #fff;
+		padding-bottom: 10px;
 	}
 
 	/*
@@ -183,11 +123,12 @@ hr {
 	}
 
 	footer p {
-		font-size: 0.25em;
+		text-align: center;
+		font-size: 2.5vw;
 	}
-
 }
 
+/* Tablet styles */
 @media screen and (min-width: 768px) {
 
 	.h2_style {
@@ -204,12 +145,12 @@ hr {
 
 	.flower_text {
 		font: 2.0em "Comic Sans MS";
-
 	}
 
 	.featured_text {
 		font: 1.5em "Comic Sans MS";
 		color: #fff;
+		padding-bottom: 10px;
 	}
 
 	/*
@@ -217,6 +158,9 @@ hr {
      * Footer
      *
      */
+	 .footer_div {
+	 	height: 60px;
+	 }
 
 	footer {
 		background-color: #555;
@@ -233,10 +177,6 @@ hr {
 		transition: all 0.5s ease;
 	}
 
-	footer a:hover {
-		color: white;
-	}
-
 	.fa {
 		padding: 8px;
 		font-size: 12px;
@@ -247,6 +187,19 @@ hr {
 		border-radius: 50%;
 	}
 
+	footer p {
+		text-align: center;
+		font-size: 1.2vw;
+	}
+}
+
+/* Desktop styles */
+@media screen and (min-width: 1200px) {
+
+	footer p {
+		text-align: center;
+		font-size: 0.9vw;
+	}
 }
 
 /*
@@ -266,7 +219,7 @@ hr {
 }
 
 .changing_flower {
-	background-image: url('../images/flower_color.jpg');
+	background-image: url(../images/flower_color.jpg);
 	background-size: 100%;
 }
 
@@ -293,6 +246,21 @@ img-thumbnail img {
 	padding-top: 4px;
 }
 
+/*
+	 *
+	 * Footer
+	 *
+	 */
+footer a:hover {
+	color: white;
+}
+
+/*
+   *
+   * Social icons
+   *
+   */
+
 .fa:hover {
 	opacity: 0.7;
 }
@@ -315,8 +283,4 @@ img-thumbnail img {
 .fa-linkedin {
 	background: #007bb5;
 	color: white;
-}
-
-footer p {
-	text-align: center;
 }

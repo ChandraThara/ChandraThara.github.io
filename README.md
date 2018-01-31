@@ -18,7 +18,7 @@ This is a web project that uses Bootstrap4, HTML5 and CSS. The pages are optimiz
 
 ## Authors
 
-* **Chandra Thara Chandrika** - [myportfolio](https://github.com/ChandraThara/myportfolio)
+* **Chandra Thara Chandrika** - [myportfolio](https://chandrathara.github.io/)
 
 ## License
 
