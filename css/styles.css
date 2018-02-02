@@ -94,10 +94,6 @@ hr {
      *
      */
 
-	.footer_div {
-		height: 60px;
-	}
-
 	footer {
 		background-color: #555;
 		color: #fff;
@@ -158,9 +154,6 @@ hr {
      * Footer
      *
      */
-	 .footer_div {
-	 	height: 60px;
-	 }
 
 	footer {
 		background-color: #555;
@@ -253,6 +246,10 @@ img-thumbnail img {
 	 */
 footer a:hover {
 	color: white;
+}
+
+.footer_div {
+ height: 60px;
 }
 
 /*
