@@ -78,7 +78,7 @@ hr {
 		font-size: 0.75em;
 	}
 
-	.flower_text {
+	.kite_text {
 		font: 1.0em "Comic Sans MS";
 	}
 
@@ -139,7 +139,7 @@ hr {
 		font-size: 1em;
 	}
 
-	.flower_text {
+	.kite_text {
 		font: 2.0em "Comic Sans MS";
 	}
 
@@ -197,7 +197,7 @@ hr {
 
 /*
  *
- * Flower Text
+ * Kite Text
  *
  */
 
@@ -211,8 +211,8 @@ hr {
 	text-shadow: 2px 2px 4px black, 0 0 25px red, 0 0 5px darkblue;
 }
 
-.changing_flower {
-	background-image: url(../images/flower_color.jpg);
+.changing_kite {
+	background-image: url(../images/kite.jpg);
 	background-size: 100%;
 }
 
